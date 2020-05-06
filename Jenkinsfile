@@ -8,6 +8,6 @@ node{
 	}
 
 	stage('Run'){
-		sh label: '', script: 'javac Main'
+		sh label: '', script: 'java Main'
 	}
 }
